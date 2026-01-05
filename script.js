@@ -1,5 +1,7 @@
 const makeChange = (c) => {
   // your name here
+	
+	let amount = Number(c);
 	let q = Math.floor(amount / 25);
   amount = amount % 25;
 
